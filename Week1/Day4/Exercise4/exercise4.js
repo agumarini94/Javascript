@@ -1,7 +1,6 @@
-let users = ["Lea123", "Princess45", "cat&doglovers", "helooo@000"];
-
+let users = ["Lea123", "Princess45", "Princess45", "Princess45", "Princess45", "Princess45", "Princess45", "Princess45"];
 let totalAdditionals = users.length - 2; //if there's more of 3 users..
-if (users.length <= 3) { //if there's less of 3, so check how many users there're.. 
+if (users.length <= 2) { //if there's less of 3, so check how many users there're.. 
     switch (users.length) {
         case 0:
             console.log("No one its connected");
@@ -18,6 +17,7 @@ if (users.length <= 3) { //if there's less of 3, so check how many users there'r
 }
 else {
     console.log(users);
-    console.log(users[0] " and " users[1] " + " +       
+    console.log(totalAdditionals);
+    console.log(users[0] + " and " + users[1] + " + " +       
     totalAdditionals + " users are connected");
 }
