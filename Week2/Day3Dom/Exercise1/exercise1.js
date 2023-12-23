@@ -3,5 +3,3 @@
 
 const answer1 = document.getElementsByTagName("div");
 console.log(answer1);
-
-
