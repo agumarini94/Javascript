@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example exercise 1</title>
+</head>
+<body>
+    <h1 id="banner">The sales end in <b id='countDown'>10min </b> !</h1>
+    <script>
+
+    // setTimeout(function(){
+    //     document.getElementById('banner').style.display = 'block';} , 3000);
+    //lo que esta entre corchetes es la funcion.. la cierro y luego pongo el tiempo de retraso
+    //pongo display block para que se muestre como bloque..     
+    
+    
+    //exercise 2 
+let timer = setInterval( , 5000);
+
+function myCount(){
+    var starter = 10; 
+    for (let i = 0; i < 10 ; i++){
+         let cadaCuanto = starter - i; 
+        console.log('la oferta termina en ' + cadaCuanto);
+        
+        // if(i = 0){
+        //     break;
+        // }
+    }
+}
+
+clearTimeout
+
+
+    // setInterval(repetir , 1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //         function banner (){
+        // document.getElementById('banner').style.display = 'block';
+        //         }
+        // function repetir (){
+        //     // let interval = 10
+        //     let contador = document.getElementById('countDown');
+        //     function contar(){
+        //         contador = contador - 1;
+        //         document.getElementById('countDown').innerText = (contador);
+        //         document.getElementById('banner').style.display = 'block'
+        //     }
+        //     // for(let i = 10; i != 0 ; i--){
+        //         // interval = interval - i;
+        //         // console.log('las ofertas terminan en ' + i);
+        //         // i--;
+        //         // document.getElementById('banner').innerHTML = 'Las ofertas terminan en ' + interval + ' seconds';
+        //         // document.getElementById('banner').style.display = 'block';
+        //     // }
+        // };
+    
+    </script>
+
+
+<style>
+    h1{
+        display: none; 
+        /* en el style pongo que el banner este oculto para que se muestre despues del tiempo que yo elija.  */
+        background-color: red;
+        color: black;
+        position: fixed ;
+        top: 0px;
+        }    
+</style>
+</body>
+</html>
+
+
+
+

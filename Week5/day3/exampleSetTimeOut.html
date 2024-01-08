@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sayHi(phrase, who)
+        //phrase puede ser cualquier valor, en este ejemplo phrase es hola , y who es john. pero no necesariamente tiene que ser phare y who..  serian los parametros de la funcion sayHi.
+        {
+                alert(phrase + ', ' + who);
+            }
+
+            setTimeout(sayHi, 3000, "Hello", "John"); //llamo a la funcion, y el retraso de tiempo.. hello and jonhn son los parametros de la funcion. 
+            // calls sayHi() after one second --> Hello, John
+    </script>
+</body>
+</html>
